@@ -1,4 +1,0 @@
-#Sun Oct 13 15:20:03 COT 2019
-base.0=/home/black/miescuela-server/app/build/intermediates/transforms/r8/release/0/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
