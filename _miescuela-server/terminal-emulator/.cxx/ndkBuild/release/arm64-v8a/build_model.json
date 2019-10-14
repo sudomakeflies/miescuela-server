@@ -1,0 +1,68 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/black/miescuela-server",
+      "sdkFolder": "/home/black/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/black/miescuela-server/terminal-emulator/build/intermediates",
+      "gradleModulePathName": ":terminal-emulator",
+      "moduleRootFolder": "/home/black/miescuela-server/terminal-emulator",
+      "makeFile": "/home/black/miescuela-server/terminal-emulator/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/home/black/miescuela-server/.cxx",
+      "cxxFolder": "/home/black/miescuela-server/terminal-emulator/.cxx",
+      "ndkFolder": "/home/black/Android/Sdk/ndk/20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [
+      "-std\u003dc11",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Os",
+      "-fno-stack-protector",
+      "-Wl,--gc-sections"
+    ],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/home/black/miescuela-server/terminal-emulator/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/home/black/miescuela-server/terminal-emulator/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/home/black/miescuela-server/terminal-emulator/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a",
+  "jsonFile": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/black/miescuela-server/terminal-emulator/.cxx/cxx/release/arm64-v8a",
+  "objFolder": "/home/black/miescuela-server/terminal-emulator/build/intermediates/ndkBuild/release/obj/local/arm64-v8a",
+  "buildCommandFile": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/black/miescuela-server/terminal-emulator/.cxx/ndkBuild/release/arm64-v8a/compile_commands.json"
+}
