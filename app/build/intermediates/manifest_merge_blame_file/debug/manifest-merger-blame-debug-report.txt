@@ -1,0 +1,320 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="co.miescuela"
+4    android:installLocation="internalOnly"
+5    android:sharedUserId="co.miescuela"
+6    android:sharedUserLabel="@string/shared_user_label"
+7    android:versionCode="75"
+8    android:versionName="0.75" >
+9
+10    <uses-sdk
+11        android:minSdkVersion="21"
+11-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml
+12        android:targetSdkVersion="28" />
+12-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml
+13
+14    <uses-feature
+14-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:8:5-90
+15        android:name="android.hardware.touchscreen"
+15-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:8:19-62
+16        android:required="false" />
+16-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:8:63-87
+17    <uses-feature
+17-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:9:5-87
+18        android:name="android.software.leanback"
+18-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:9:19-59
+19        android:required="false" />
+19-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:9:60-84
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:11:5-67
+21-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:11:22-64
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:12:5-81
+22-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:12:22-78
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:13:5-68
+23-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:13:22-65
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:14:5-66
+24-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:14:22-63
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:15:5-77
+25-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:15:22-74
+26
+27    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+27-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:16:5-101
+27-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:16:29-99
+28
+29    <application
+29-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:18:5-141:19
+30        android:allowBackup="true"
+30-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:20:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.0] /home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/AndroidManifest.xml:22:18-86
+32        android:banner="@drawable/banner"
+32-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:23:9-42
+33        android:debuggable="true"
+34        android:extractNativeLibs="true"
+34-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:19:9-41
+35        android:fullBackupContent="@xml/backupscheme"
+35-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:21:9-54
+36        android:icon="@drawable/ic_launcher"
+36-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:22:9-45
+37        android:label="@string/application_name"
+37-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:24:9-49
+38        android:supportsRtl="false"
+38-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:26:9-36
+39        android:testOnly="true"
+40        android:theme="@style/Theme.Termux" >
+40-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:25:9-44
+41
+42        <!--
+43             This (or rather, value 2.1 or higher) is needed to make the Samsung Galaxy S8
+44             mark the app with "This app is optimized to run in full screen."
+45        -->
+46        <meta-data
+46-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:30:9-77
+47            android:name="android.max_aspect"
+47-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:30:20-53
+48            android:value="10.0" />
+48-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:30:54-74
+49
+50        <activity
+50-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:32:9-48:20
+51            android:name="co.miescuela.app.TermuxActivity"
+51-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:33:13-59
+52            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+52-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:35:13-83
+53            android:label="@string/application_name"
+53-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:34:13-53
+54            android:launchMode="singleTask"
+54-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:36:13-44
+55            android:resizeableActivity="true"
+55-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:37:13-46
+56            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" >
+56-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:38:13-74
+57            <intent-filter>
+57-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:39:13-42:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:40:17-69
+58-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:40:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:41:17-77
+60-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:41:27-74
+61            </intent-filter>
+62            <intent-filter>
+62-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:43:13-46:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:40:17-69
+63-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:40:25-66
+64
+65                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+65-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:45:17-86
+65-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:45:27-83
+66            </intent-filter>
+67
+68            <meta-data
+68-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:47:13-97
+69                android:name="android.app.shortcuts"
+69-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:47:24-60
+70                android:resource="@xml/shortcuts" />
+70-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:47:61-94
+71        </activity>
+72
+73        <activity-alias
+73-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:105:9-115:26
+74            android:name="co.miescuela.HomeActivity"
+74-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:106:13-41
+75            android:targetActivity="co.miescuela.app.TermuxActivity" >
+75-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:107:13-69
+76
+77            <!-- Launch activity automatically on boot on Android Things devices -->
+78            <intent-filter>
+78-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:110:13-114:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:40:17-69
+79-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:40:25-66
+80
+81                <category android:name="android.intent.category.IOT_LAUNCHER" />
+81-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:112:17-80
+81-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:112:27-78
+82                <category android:name="android.intent.category.DEFAULT" />
+82-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:84:17-76
+82-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:84:27-73
+83            </intent-filter>
+84        </activity-alias>
+85
+86        <activity
+86-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:50:9-56:56
+87            android:name="co.miescuela.app.TermuxHelpActivity"
+87-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:51:13-63
+88            android:exported="false"
+88-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:52:13-37
+89            android:label="@string/application_name"
+89-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:56:13-53
+90            android:parentActivityName="co.miescuela.app.TermuxActivity"
+90-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:54:13-61
+91            android:resizeableActivity="true"
+91-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:55:13-46
+92            android:theme="@android:style/Theme.Material.Light.DarkActionBar" />
+92-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:53:13-78
+93        <activity
+93-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:58:9-64:56
+94            android:name="co.miescuela.app.MiescuelaAdminActivity"
+94-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:59:13-67
+95            android:exported="false"
+95-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:60:13-37
+96            android:label="@string/application_name"
+96-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:64:13-53
+97            android:parentActivityName="co.miescuela.app.TermuxActivity"
+97-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:62:13-61
+98            android:resizeableActivity="true"
+98-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:63:13-46
+99            android:theme="@android:style/Theme.Material.Light.DarkActionBar" />
+99-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:61:13-78
+100        <activity
+100-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:66:9-72:56
+101            android:name="co.miescuela.app.MiescuelaStreamActivity"
+101-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:67:13-68
+102            android:exported="false"
+102-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:68:13-37
+103            android:label="@string/application_name"
+103-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:72:13-53
+104            android:parentActivityName="co.miescuela.app.TermuxActivity"
+104-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:70:13-61
+105            android:resizeableActivity="true"
+105-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:71:13-46
+106            android:theme="@android:style/Theme.Material.Light.DarkActionBar" />
+106-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:69:13-78
+107        <activity
+107-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:74:9-103:20
+108            android:name="co.miescuela.filepicker.TermuxFileReceiverActivity"
+108-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:75:13-78
+109            android:excludeFromRecents="true"
+109-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:78:13-46
+110            android:label="@string/application_name"
+110-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:76:13-53
+111            android:noHistory="true"
+111-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:80:13-37
+112            android:resizeableActivity="true"
+112-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:79:13-46
+113            android:taskAffinity="co.miescuela.filereceiver" >
+113-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:77:13-61
+114
+115            <!-- Accept multiple file types when sending. -->
+116            <intent-filter>
+116-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:82:13-92:29
+117                <action android:name="android.intent.action.SEND" />
+117-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:83:17-68
+117-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:83:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:84:17-76
+119-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:84:27-73
+120
+121                <data android:mimeType="application/*" />
+121-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+121-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+122                <data android:mimeType="audio/*" />
+122-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+122-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+123                <data android:mimeType="image/*" />
+123-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+123-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+124                <data android:mimeType="message/*" />
+124-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+124-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+125                <data android:mimeType="multipart/*" />
+125-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+125-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+126                <data android:mimeType="text/*" />
+126-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+126-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+127                <data android:mimeType="video/*" />
+127-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+127-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+128            </intent-filter>
+129            <!-- Be more restrictive for viewing files, restricting ourselves to text files. -->
+130            <intent-filter>
+130-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:94:13-102:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:95:17-68
+131-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:95:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:84:17-76
+133-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:84:27-73
+134
+135                <data android:mimeType="text/*" />
+135-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+135-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+136                <data android:mimeType="application/json" />
+136-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+136-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+137                <data android:mimeType="application/*xml*" />
+137-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+137-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+138                <data android:mimeType="application/*latex*" />
+138-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+138-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+139                <data android:mimeType="application/javascript" />
+139-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:17-58
+139-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:85:23-55
+140            </intent-filter>
+141        </activity>
+142
+143        <provider
+143-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:117:9-126:20
+144            android:name="co.miescuela.filepicker.TermuxDocumentsProvider"
+144-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:118:13-63
+145            android:authorities="co.miescuela.documents"
+145-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:119:13-57
+146            android:exported="true"
+146-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:121:13-36
+147            android:grantUriPermissions="true"
+147-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:120:13-47
+148            android:permission="android.permission.MANAGE_DOCUMENTS" >
+148-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:122:13-69
+149            <intent-filter>
+149-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:123:13-125:29
+150                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+150-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:124:17-84
+150-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:124:25-81
+151            </intent-filter>
+152        </provider>
+153
+154        <service
+154-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:128:9-130:40
+155            android:name="co.miescuela.app.TermuxService"
+155-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:129:13-58
+156            android:exported="false" />
+156-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:130:13-37
+157
+158        <receiver android:name="co.miescuela.app.TermuxOpenReceiver" />
+158-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:132:9-60
+158-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:132:19-57
+159
+160        <provider
+160-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:134:9-138:88
+161            android:name="co.miescuela.app.TermuxOpenReceiver$ContentProvider"
+161-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:138:19-85
+162            android:authorities="co.miescuela.files"
+162-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:134:19-59
+163            android:exported="true"
+163-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:136:19-42
+164            android:grantUriPermissions="true"
+164-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:137:19-53
+165            android:readPermission="android.permission.permRead" />
+165-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:135:19-71
+166
+167        <meta-data
+167-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:140:9-94
+168            android:name="com.sec.android.support.multiwindow"
+168-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:140:20-70
+169            android:value="true" />
+169-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:140:71-91
+170    </application>
+171
+172</manifest>

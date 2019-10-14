@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml:1:1-2:12
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml:1:1-2:12
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml:1:1-2:12
+	package
+		ADDED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml:1:11-42
+		INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+		INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml:1:1-2:12
+uses-sdk
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+		ADDED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+		INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+		ADDED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml
+		INJECTED from /home/black/miescuela-server/terminal-emulator/src/main/AndroidManifest.xml

@@ -1,0 +1,486 @@
+android.content.res.Resources#getIdentifier present: false
+Web content present: true
+Referenced Strings:
+  O
+  OA
+  OB
+  OC
+  OD
+  OF
+  OH
+  OP
+  OQ
+  OR
+  OS
+  On
+  P1$r
+  $q
+  %02X
+  %04x
+  %1
+  %2F
+  %i
+  %s.%sParcelizer
+  .txt
+  /bin
+  /data/data/co.miescuela/files
+  /data/data/co.miescuela/files/home
+  /data/data/co.miescuela/files/home/.c...
+  /data/data/co.miescuela/files/home/.t...
+  /data/data/co.miescuela/files/home/.t...
+  /data/data/co.miescuela/files/home/.t...
+  /data/data/co.miescuela/files/home/do...
+  /data/data/co.miescuela/files/home/in...
+  /data/data/co.miescuela/files/home/ru...
+  /data/data/co.miescuela/files/home/st...
+  /data/data/co.miescuela/files/usr
+  /data/data/co.miescuela/files/usr/bin/
+  /data/data/co.miescuela/files/usr/bin/sh
+  /data/data/co.miescuela/files/usr/etc...
+  /data/data/co.miescuela/files/usr/tmp
+  /system/bin/sh
+  /usr
+  0
+  0x
+  0x%08x
+  1
+  2
+  256
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  ACTION_ACCESSIBILITY_FOCUS
+  ACTION_CLEAR_ACCESSIBILITY_FOCUS
+  ACTION_CLEAR_FOCUS
+  ACTION_CLEAR_SELECTION
+  ACTION_CLICK
+  ACTION_COPY
+  ACTION_CUT
+  ACTION_FOCUS
+  ACTION_LONG_CLICK
+  ACTION_NEXT_AT_MOVEMENT_GRANULARITY
+  ACTION_NEXT_HTML_ELEMENT
+  ACTION_PASTE
+  ACTION_PREVIOUS_AT_MOVEMENT_GRANULARITY
+  ACTION_PREVIOUS_HTML_ELEMENT
+  ACTION_SCROLL_BACKWARD
+  ACTION_SCROLL_FORWARD
+  ACTION_SELECT
+  ACTION_SET_SELECTION
+  ACTION_UNKNOWN
+  ALT
+  ANDROID_DATA
+  ANDROID_ROOT
+  ANDROID_RUNTIME_ROOT
+  ANDROID_TZDATA_ROOT
+  APOSTROPHE
+  BACKSLASH
+  BACKSPACE
+  BITMAP
+  BITMAP_MASKABLE
+  BKSP
+  BOOTCLASSPATH
+  CONTROL
+  CTRL
+  ClickableViewAccessibility
+  Co
+  ContentValues
+  DATA
+  DEL
+  DELETE
+  DN
+  DOWN
+  DrawableCompat
+  DrawerLayout
+  END
+  ENTER
+  ESC
+  ESCAPE
+  EXTERNAL_STORAGE
+  F1
+  F10
+  F11
+  F12
+  F2
+  F3
+  F4
+  F5
+  F6
+  F7
+  F8
+  F9
+  FA
+  FB
+  FC
+  FD
+  FE
+  FN
+  FUNCTION
+  HOME
+  HandlerLeak
+  INS
+  IconCompat
+  InflateParams
+  K1
+  K3
+  K4
+  K5
+  LEFT
+  LT
+  PAGEDOWN
+  PAGEUP
+  PAGE_DOWN
+  PAGE_UP
+  PATH
+  PGDN
+  PGUP
+  QUOTE
+  RESOURCE
+  RETURN
+  RIGHT
+  RT
+  SYMLINKS.txt
+  TAB
+  TN
+  Termux
+  UNKNOWN
+  UP
+  URI
+  V:
+  ViewDragHelper
+  ViewPager
+  Wakelock
+  WrongConstant
+  X
+  _display_name
+  _id
+  _size
+  aarch64
+  accessibility
+  android.intent.action.OPEN_DOCUMENT
+  android.intent.action.RUN
+  android.intent.action.SEND
+  android.intent.action.VIEW
+  android.intent.category.OPENABLE
+  android.intent.extra.STREAM
+  android.intent.extra.SUBJECT
+  android.intent.extra.TEXT
+  android.intent.extra.TITLE
+  android.permission.WRITE_EXTERNAL_STO...
+  android.settings.REQUEST_IGNORE_BATTE...
+  android.software.leanback
+  arm
+  audio
+  available_bytes
+  back
+  background
+  bash
+  beep
+  bin/
+  chooser
+  clipboard
+  co.miescuela
+  co.miescuela.app.TermuxService
+  co.miescuela.app.failsafe_session
+  co.miescuela.app.reload_style
+  co.miescuela.execute.arguments
+  co.miescuela.execute.background
+  co.miescuela.execute.cwd
+  co.miescuela.file
+  co.miescuela.service_execute
+  co.miescuela.service_stop
+  co.miescuela.service_wake_lock
+  co.miescuela.service_wake_unlock
+  co.miescuela.styling
+  co.miescuela.styling.TermuxStyleActivity
+  color
+  colors
+  content
+  content://co.miescuela.files
+  ctrl
+  current_session
+  cursor
+  dcim
+  descriptor
+  document_id
+  downloads
+  escape
+  fd
+  file
+  flags
+  fontsize
+  foreground
+  getResId
+  getResPackage
+  haptic_feedback_enabled
+  http://localhost:8080/admin
+  https://wiki.termux.com
+  https://wiki.termux.com/wiki/Main_Page
+  i686
+  icon
+  ignore
+  image/
+  input_method
+  k1
+  k2
+  k3
+  k4
+  k5
+  k6
+  k7
+  k8
+  k9
+  kB
+  kD
+  kDN
+  kF
+  kI
+  kN
+  kP
+  kR
+  kUP
+  kb
+  kd
+  kh
+  kl
+  kr
+  ku
+  last_modified
+  lib/apt/methods
+  libexec
+  login
+  mime_type
+  mime_types
+  movies
+  music
+  name
+  notification
+  package:
+  pictures
+  pid
+  power
+  read
+  rgb:
+  root_id
+  s
+  screen_always_on
+  setLayoutDirection
+  shared
+  show_extra_keys
+  storage
+  styling
+  summary
+  termux
+  termux_notification_channel
+  text/plain
+  title
+  user
+  vibrate
+  vibrator
+  video/mp4
+  vnd.android.document/directory
+  wifi
+  write
+  x
+  x86
+  x86_64
+  xterm
+  zen_mode
+  zsh
+  
+Marking string:styling_install:2131296297 used because its prefix matches string pool constant styling
+Marking string:styling_not_installed:2131296298 used because its prefix matches string pool constant styling
+Marking string:shared_user_label:2131296293 used because its prefix matches string pool constant shared
+Marking id:icon:2131034123 used because its prefix matches string pool constant icon
+Marking id:icon_group:2131034124 used because its prefix matches string pool constant icon
+Marking drawable:current_session:2130968579 used because its prefix matches string pool constant current_session
+Marking drawable:background:2130968577 used because its prefix matches string pool constant back
+Marking xml:backupscheme:2131492864 used because its prefix matches string pool constant back
+Marking id:title:2131034148 used because its prefix matches string pool constant title
+Marking style:TermuxAlertDialogStyle:2131361792 used because its prefix matches string pool constant Termux
+Marking string:file_received_edit_button:2131296266 used because its prefix matches string pool constant file
+Marking string:file_received_open_folder_button:2131296267 used because its prefix matches string pool constant file
+Marking string:file_received_title:2131296268 used because its prefix matches string pool constant file
+Marking color:notification_action_color_filter:2130837504 used because its prefix matches string pool constant notification
+Marking color:notification_icon_bg_color:2130837505 used because its prefix matches string pool constant notification
+Marking dimen:notification_action_icon_size:2130903047 used because its prefix matches string pool constant notification
+Marking dimen:notification_action_text_size:2130903048 used because its prefix matches string pool constant notification
+Marking dimen:notification_big_circle_margin:2130903049 used because its prefix matches string pool constant notification
+Marking dimen:notification_content_margin_start:2130903050 used because its prefix matches string pool constant notification
+Marking dimen:notification_large_icon_height:2130903051 used because its prefix matches string pool constant notification
+Marking dimen:notification_large_icon_width:2130903052 used because its prefix matches string pool constant notification
+Marking dimen:notification_main_column_padding_top:2130903053 used because its prefix matches string pool constant notification
+Marking dimen:notification_media_narrow_margin:2130903054 used because its prefix matches string pool constant notification
+Marking dimen:notification_right_icon_size:2130903055 used because its prefix matches string pool constant notification
+Marking dimen:notification_right_side_padding_top:2130903056 used because its prefix matches string pool constant notification
+Marking dimen:notification_small_icon_background_padding:2130903057 used because its prefix matches string pool constant notification
+Marking dimen:notification_small_icon_size_as_large:2130903058 used because its prefix matches string pool constant notification
+Marking dimen:notification_subtext_size:2130903059 used because its prefix matches string pool constant notification
+Marking dimen:notification_top_pad:2130903060 used because its prefix matches string pool constant notification
+Marking dimen:notification_top_pad_large_text:2130903061 used because its prefix matches string pool constant notification
+Marking drawable:notification_action_background:2130968584 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg:2130968585 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_low:2130968586 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_low_normal:2130968587 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_low_pressed:2130968588 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_normal:2130968589 used because its prefix matches string pool constant notification
+Marking drawable:notification_bg_normal_pressed:2130968590 used because its prefix matches string pool constant notification
+Marking drawable:notification_icon_background:2130968591 used because its prefix matches string pool constant notification
+Marking drawable:notification_template_icon_bg:2130968592 used because its prefix matches string pool constant notification
+Marking drawable:notification_template_icon_low_bg:2130968593 used because its prefix matches string pool constant notification
+Marking drawable:notification_tile_bg:2130968594 used because its prefix matches string pool constant notification
+Marking id:notification_background:2131034134 used because its prefix matches string pool constant notification
+Marking id:notification_main_column:2131034135 used because its prefix matches string pool constant notification
+Marking id:notification_main_column_container:2131034136 used because its prefix matches string pool constant notification
+Marking layout:notification_action:2131165188 used because its prefix matches string pool constant notification
+Marking layout:notification_action_tombstone:2131165189 used because its prefix matches string pool constant notification
+Marking layout:notification_template_custom_big:2131165190 used because its prefix matches string pool constant notification
+Marking layout:notification_template_icon_group:2131165191 used because its prefix matches string pool constant notification
+Marking layout:notification_template_part_chronometer:2131165192 used because its prefix matches string pool constant notification
+Marking layout:notification_template_part_time:2131165193 used because its prefix matches string pool constant notification
+Marking string:notification_action_exit:2131296276 used because its prefix matches string pool constant notification
+Marking string:notification_action_wake_lock:2131296277 used because its prefix matches string pool constant notification
+Marking string:notification_action_wake_unlock:2131296278 used because its prefix matches string pool constant notification
+Marking drawable:background:2130968577 used because its prefix matches string pool constant background
+Resource Reference Graph:
+color:notification_action_color_filter:2130837504 => [color:secondary_text_default_material_light:2130837507]
+dimen:notification_media_narrow_margin:2130903054 => [dimen:notification_content_margin_start:2130903050]
+drawable:ic_launcher:2130968581 => [drawable:ic_foreground:2130968580]
+drawable:notification_action_background:2130968584 => [color:ripple_material_light:2130837506, dimen:compat_button_inset_vertical_material:2130903041, dimen:compat_button_inset_horizontal_material:2130903040, dimen:compat_control_corner_material:2130903044, dimen:compat_button_padding_vertical_material:2130903043, dimen:compat_button_padding_horizontal_material:2130903042]
+drawable:notification_bg:2130968585 => [drawable:notification_bg_normal_pressed:2130968590, drawable:notification_bg_normal:2130968589]
+drawable:notification_bg_low:2130968586 => [drawable:notification_bg_low_pressed:2130968588, drawable:notification_bg_low_normal:2130968587]
+drawable:notification_icon_background:2130968591 => [color:notification_icon_bg_color:2130837505]
+drawable:notification_tile_bg:2130968594 => [drawable:notify_panel_notification_icon_bg:2130968595]
+drawable:selected_session_background:2130968596 => [drawable:current_session:2130968579, drawable:session_ripple:2130968597]
+drawable:text_select_handle_left_material:2130968599 => [drawable:text_select_handle_left_mtrl_alpha:2130968600]
+drawable:text_select_handle_right_material:2130968601 => [drawable:text_select_handle_right_mtrl_alpha:2130968602]
+layout:drawer_layout:2131165184 => [drawable:background:2130968577, id:viewpager:2131034150, drawable:terminal_scroll_shape:2130968598, string:new_session:2131296274, string:miescuela:2131296273]
+layout:line_in_drawer:2131165187 => [drawable:selected_session_background:2130968596]
+layout:notification_action:2131165188 => [style:Widget_Compat_NotificationActionContainer:2131361799, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131361800]
+layout:notification_action_tombstone:2131165189 => [style:Widget_Compat_NotificationActionContainer:2131361799, dimen:notification_action_icon_size:2130903047, style:Widget_Compat_NotificationActionText:2131361800]
+layout:notification_template_custom_big:2131165190 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, layout:notification_template_icon_group:2131165191, dimen:notification_right_side_padding_top:2130903056, layout:notification_template_part_time:2131165193, layout:notification_template_part_chronometer:2131165192, style:TextAppearance_Compat_Notification_Info:2131361794]
+layout:notification_template_icon_group:2131165191 => [dimen:notification_large_icon_height:2130903051, dimen:notification_large_icon_width:2130903052, dimen:notification_big_circle_margin:2130903049, dimen:notification_right_icon_size:2130903055]
+layout:notification_template_part_chronometer:2131165192 => [style:TextAppearance_Compat_Notification_Time:2131361796]
+layout:notification_template_part_time:2131165193 => [style:TextAppearance_Compat_Notification_Time:2131361796]
+style:TextAppearance_Compat_Notification_Info:2131361794 => [style:TextAppearance_Compat_Notification:2131361793, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
+style:TextAppearance_Compat_Notification_Line2:2131361795 => [style:TextAppearance_Compat_Notification_Info:2131361794]
+style:TextAppearance_Compat_Notification_Time:2131361796 => [style:TextAppearance_Compat_Notification:2131361793, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
+style:Theme_Termux:2131361798 => [style:TermuxAlertDialogStyle:2131361792]
+style:Widget_Compat_NotificationActionContainer:2131361799 => [drawable:notification_action_background:2130968584]
+style:Widget_Compat_NotificationActionText:2131361800 => [color:secondary_text_default_material_light:2130837507, dimen:notification_action_text_size:2130903048]
+xml:shortcuts:2131492865 => [drawable:ic_new_session:2130968582, string:new_session:2131296274, string:new_session_failsafe:2131296275]
+
+The root reachable resources are:
+attr:font:2130771969,
+   color:notification_action_color_filter:2130837504,
+   color:notification_icon_bg_color:2130837505,
+   dimen:notification_action_icon_size:2130903047,
+   dimen:notification_action_text_size:2130903048,
+   dimen:notification_big_circle_margin:2130903049,
+   dimen:notification_content_margin_start:2130903050,
+   dimen:notification_large_icon_height:2130903051,
+   dimen:notification_large_icon_width:2130903052,
+   dimen:notification_main_column_padding_top:2130903053,
+   dimen:notification_media_narrow_margin:2130903054,
+   dimen:notification_right_icon_size:2130903055,
+   dimen:notification_right_side_padding_top:2130903056,
+   dimen:notification_small_icon_background_padding:2130903057,
+   dimen:notification_small_icon_size_as_large:2130903058,
+   dimen:notification_subtext_size:2130903059,
+   dimen:notification_top_pad:2130903060,
+   dimen:notification_top_pad_large_text:2130903061,
+   drawable:background:2130968577,
+   drawable:banner:2130968578,
+   drawable:current_session:2130968579,
+   drawable:ic_launcher:2130968581,
+   drawable:ic_service_notification:2130968583,
+   drawable:notification_action_background:2130968584,
+   drawable:notification_bg:2130968585,
+   drawable:notification_bg_low:2130968586,
+   drawable:notification_bg_low_normal:2130968587,
+   drawable:notification_bg_low_pressed:2130968588,
+   drawable:notification_bg_normal:2130968589,
+   drawable:notification_bg_normal_pressed:2130968590,
+   drawable:notification_icon_background:2130968591,
+   drawable:notification_template_icon_bg:2130968592,
+   drawable:notification_template_icon_low_bg:2130968593,
+   drawable:notification_tile_bg:2130968594,
+   drawable:text_select_handle_left_material:2130968599,
+   drawable:text_select_handle_right_material:2130968601,
+   id:drawer_layout:2131034120,
+   id:icon:2131034123,
+   id:icon_group:2131034124,
+   id:left_drawer_list:2131034128,
+   id:miescuela_button:2131034131,
+   id:new_session_button:2131034132,
+   id:notification_background:2131034134,
+   id:notification_main_column:2131034135,
+   id:notification_main_column_container:2131034136,
+   id:row_line:2131034139,
+   id:terminal_view:2131034143,
+   id:text_input:2131034146,
+   id:title:2131034148,
+   id:toggle_keyboard_button:2131034149,
+   id:viewpager:2131034150,
+   layout:drawer_layout:2131165184,
+   layout:extra_keys_main:2131165185,
+   layout:extra_keys_right:2131165186,
+   layout:line_in_drawer:2131165187,
+   layout:notification_action:2131165188,
+   layout:notification_action_tombstone:2131165189,
+   layout:notification_template_custom_big:2131165190,
+   layout:notification_template_icon_group:2131165191,
+   layout:notification_template_part_chronometer:2131165192,
+   layout:notification_template_part_time:2131165193,
+   raw:bell:2131230720,
+   string:admin:2131296256,
+   string:application_name:2131296257,
+   string:bootstrap_error_abort:2131296258,
+   string:bootstrap_error_body:2131296259,
+   string:bootstrap_error_not_primary_user_message:2131296260,
+   string:bootstrap_error_title:2131296261,
+   string:bootstrap_error_try_again:2131296262,
+   string:bootstrap_installer_body:2131296263,
+   string:confirm_kill_process:2131296264,
+   string:copy_text:2131296265,
+   string:file_received_edit_button:2131296266,
+   string:file_received_open_folder_button:2131296267,
+   string:file_received_title:2131296268,
+   string:help:2131296269,
+   string:kill_process:2131296270,
+   string:max_terminals_reached_message:2131296271,
+   string:max_terminals_reached_title:2131296272,
+   string:new_session_failsafe:2131296275,
+   string:notification_action_exit:2131296276,
+   string:notification_action_wake_lock:2131296277,
+   string:notification_action_wake_unlock:2131296278,
+   string:paste_text:2131296279,
+   string:reset_terminal:2131296280,
+   string:reset_toast_notification:2131296281,
+   string:select_all_and_share:2131296282,
+   string:select_url:2131296283,
+   string:select_url_copied_to_clipboard:2131296284,
+   string:select_url_dialog_title:2131296285,
+   string:select_url_no_found:2131296286,
+   string:session_new_named_positive_button:2131296287,
+   string:session_new_named_title:2131296288,
+   string:session_rename_positive_button:2131296289,
+   string:session_rename_title:2131296290,
+   string:share_transcript_chooser_title:2131296291,
+   string:share_transcript_title:2131296292,
+   string:shared_user_label:2131296293,
+   string:stream:2131296295,
+   string:style_terminal:2131296296,
+   string:styling_install:2131296297,
+   string:styling_not_installed:2131296298,
+   string:text_selection_more:2131296299,
+   string:toggle_keep_screen_on:2131296300,
+   style:TermuxAlertDialogStyle:2131361792,
+   style:Theme_Termux:2131361798,
+   xml:backupscheme:2131492864,
+   xml:shortcuts:2131492865
+Skipped unused resource res/drawable/_background.png: 27617 bytes (replaced with small dummy file of size 67 bytes)
