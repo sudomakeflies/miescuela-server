@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
 import android.os.UserManager;
@@ -11,6 +13,7 @@ import android.system.Os;
 import android.util.Log;
 import android.util.Pair;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import co.miescuela.R;
 import co.miescuela.terminal.EmulatorDebug;
@@ -18,6 +21,7 @@ import co.miescuela.terminal.EmulatorDebug;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
@@ -27,6 +31,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
+
+import static android.widget.Toast.LENGTH_SHORT;
+import static co.miescuela.app.TermuxActivity.HOME_PATH;
+import co.miescuela.app.TermuxActivity;
 
 /**
  * Install the Termux bootstrap packages if necessary by following the below steps:
@@ -157,8 +165,20 @@ final class TermuxInstaller {
                         }
                     });
                 }
+
+                /*Miescuela
+                try {
+                    TermuxActivity mTA = new TermuxActivity;
+                    mTA.installMyEscuela();
+                } catch (Exception e) {
+                    System.out.println(e);
+                }*/
             }
         }.start();
+
+
+
+
     }
 
     private static void ensureDirectoryExists(File directory) {
@@ -171,7 +191,10 @@ final class TermuxInstaller {
     private static URL determineZipUrl() throws MalformedURLException {
         String archName = determineTermuxArchName();
         System.out.println("**********++++++++++ Arch: " + archName);
-        String url = "https://github.com/dbcaturra/miescuela/raw/master/bootstrap-aarch64.zip";
+        String url = "https://00e9e64bac285bbaa13d204f28832641baceb9b8bc2623caf2-apidata.googleusercontent.com/download/storage/v1/b/co-miescuela-bootstrap/o/bootstrap-aarch64.zip?qk=AD5uMEt7R3VQmy7cDYylt6lQ0f46xCt4wvIABr99zAnhNk5mkPp-_3hvU5ilK-rIdTZKCTefpcvWN2o0B-vlMHxDL_3kD9CicS6wvT3k7c-8YTNP-9zogX57nYvcuxmPAO8JcW-ICNDbDfGuKGR7j22i3FSCKB7m-oQhfGB2QQ4p97pW3OAu9WchZGml8rsocnd4vBNKExIt6zwfiOYbsj4X7LayoSoXJ5XxjEkY5nqGcPP0idyJCrfMjQ2mYoQDHiIIP0vkvCbMUz1NYpRsDsPrRjj7MVsjaRFKVcDevfUVpTZije5bXA5HyZw9QK_zhPIUs6bpr0XgEYZ9lDkWEzTKFLLk7NaYl3Qu0cdi74DlidaTDh5EyGrivRMFnPWepH-vSBH_75IGFFOZzwySHvS2V8bd5BcCf0WcAN_JY7oRX7xD6jtaZIbuBFG4jBBhzxrxXOSMW8kObvLxYt7HbtVKnlAYERSBRziwJa91KC0RVzNgcpDmOCFgQm56vDWuE55ogq4Td6M-6iIMEK1ZOktx0z2JFQ769ZR59tA9FqRoeEmBC0yMSg2pfTW7TvBncsCQPBoE-K9ZOsGAmHrM5MJF2prxP-dMzcUZnaKKXEYat1GyL1PnNmRGfGbtW1voqeZOR4jc5g4uNDLLdx46QjE7f6-a8KVAThYLMAJ30kbGfmWnVG20CTeBYJ3pxqiWp6VKnZ_bge9WZHhtSSR1xgnEJaK54uDljxzh16ZlYc0-ucYi8ep8Rq98AfsqgVrD6IZXxC62jz49CGo4gjQ-gfUDrfa8HCr_BHw_7HByLuU84m5XPw4Y2qXHd1vEgJab5yj7mDGmqq0Q";
+        //"gs://co-miescuela-bootstrap/bootstrap-aarch64.zip";
+        //"https://storage.cloud.google.com/co-miescuela-bootstrap/bootstrap-aarch64.zip?authuser=1&hl=es-419";
+        //Deprecated github aux "https://github.com/dbcaturra/miescuela/raw/master/bootstrap-aarch64.zip";
         return new URL(url);
     }
 

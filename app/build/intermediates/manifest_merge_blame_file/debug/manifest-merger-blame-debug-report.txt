@@ -59,8 +59,8 @@
 34-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:19:9-41
 35        android:fullBackupContent="@xml/backupscheme"
 35-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:21:9-54
-36        android:icon="@drawable/ic_launcher"
-36-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:22:9-45
+36        android:icon="@drawable/ic_wifi_tethering_black_24dp"
+36-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:22:9-62
 37        android:label="@string/application_name"
 37-->/home/black/miescuela-server/app/src/main/AndroidManifest.xml:24:9-49
 38        android:supportsRtl="false"

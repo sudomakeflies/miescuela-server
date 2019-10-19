@@ -37,14 +37,15 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-drawable _background
 drawable background
 drawable banner
 drawable current_session
 drawable ic_foreground
 drawable ic_launcher
+drawable ic_launcher_foreground
 drawable ic_new_session
 drawable ic_service_notification
+drawable ic_wifi_tethering_black_24dp
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -114,6 +115,8 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+mipmap ic_launcher
+mipmap ic_launcher_round
 raw bell
 string admin
 string application_name

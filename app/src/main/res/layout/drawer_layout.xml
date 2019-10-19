@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/viewpager"
         android:layout_alignParentTop="true"
-        android:background="#00FF0000">
+        android:background="#009688">
 
         <co.miescuela.view.TerminalView
             android:id="@+id/terminal_view"
@@ -72,7 +72,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/miescuela" />
+                    android:background="#009688"
+                    android:padding="5dp"
+                    android:text="@string/miescuela"
+                    android:textColor="#FFFFFF" />
 
             </LinearLayout>
         </LinearLayout>

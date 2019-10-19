@@ -33,7 +33,7 @@
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:fullBackupContent="@xml/backupscheme"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/ic_wifi_tethering_black_24dp"
         android:label="@string/application_name"
         android:supportsRtl="false"
         android:testOnly="true"

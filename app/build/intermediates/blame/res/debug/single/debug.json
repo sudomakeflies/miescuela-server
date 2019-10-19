@@ -8,16 +8,36 @@
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/layout-v21/notification_template_custom_big.xml"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/drawable/ic_launcher_foreground.xml"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_text_select_handle_right_mtrl_alpha.png.flat",
@@ -40,12 +60,24 @@
         "source": "/home/black/miescuela-server/terminal-view/build/intermediates/packaged_res/debug/drawable/text_select_handle_left_material.xml"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/black/miescuela-server/app/src/main/res/drawable-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_selected_session_background.xml.flat",
@@ -80,6 +112,10 @@
         "source": "/home/black/miescuela-server/app/src/main/res/raw/bell.ogg"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_terminal_scroll_shape.xml.flat",
         "source": "/home/black/miescuela-server/app/src/main/res/drawable/terminal_scroll_shape.xml"
     },
@@ -96,10 +132,6 @@
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable__background.png.flat",
-        "source": "/home/black/miescuela-server/app/src/main/res/drawable/_background.png"
-    },
-    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable/notification_tile_bg.xml"
     },
@@ -112,12 +144,20 @@
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_session_ripple.xml.flat",
         "source": "/home/black/miescuela-server/app/src/main/res/drawable/session_ripple.xml"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_ic_wifi_tethering_black_24dp.xml.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/drawable/ic_wifi_tethering_black_24dp.xml"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_banner.png.flat",
@@ -134,6 +174,10 @@
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_text_select_handle_right_material.xml.flat",
         "source": "/home/black/miescuela-server/terminal-view/build/intermediates/packaged_res/debug/drawable/text_select_handle_right_material.xml"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_ic_foreground.xml.flat",
@@ -180,12 +224,20 @@
         "source": "/home/black/.gradle/caches/transforms-2/files-2.1/4de34232979cbe134bd28b81339a3afe/core-1.0.0/res/drawable/notification_bg.xml"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_ic_new_session.xml.flat",
         "source": "/home/black/miescuela-server/app/src/main/res/drawable/ic_new_session.xml"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/layout_extra_keys_main.xml.flat",
         "source": "/home/black/miescuela-server/app/src/main/res/layout/extra_keys_main.xml"
+    },
+    {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/drawable_background.png.flat",
