@@ -29,12 +29,14 @@ public final class MiescuelaAdminActivity extends Activity {
         progressBar.setLayoutParams(lParams);
         progressLayout.addView(progressBar);
 
-        mWebView = new WebView(this);
-        WebSettings settings = mWebView.getSettings();
-        settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
-        settings.setAppCacheEnabled(false);
+        mWebView = new WebView(getApplicationContext());
+        WebSettings webSettings = mWebView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        mWebView.setWebViewClient(new WebViewClient());
         setContentView(progressLayout);
         mWebView.clearCache(true);
+        mWebView.loadUrl("http://localhost:8080/admin");
 
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
@@ -60,7 +62,6 @@ public final class MiescuelaAdminActivity extends Activity {
                 setContentView(mWebView);
             }
         });
-        mWebView.loadUrl("http://localhost:8080/admin");
     }
 
     @Override

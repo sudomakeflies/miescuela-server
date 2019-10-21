@@ -178,7 +178,6 @@ public final class TermuxActivity extends Activity implements ServiceConnection 
     public void installMyEscuela() {
         if (ensureStoragePermissionGranted()) {
             TermuxInstaller.setupStorageSymlinks(TermuxActivity.this);
-            Toast.makeText(TermuxActivity.this, "Storage Permmissions granted... !", LENGTH_SHORT).show();
         }
         try {
             File installfile = new File(HOME_PATH + "install.sh");
@@ -190,26 +189,25 @@ public final class TermuxActivity extends Activity implements ServiceConnection 
             writer.append("LDFLAGS='-L/system/lib/' CFLAGS='-I/data/data/co.miescuela/files/usr/include/' pip install wheel pillow;");
             writer.append("pip install django django-bootstrap-static django-koalalms-learning django-koalalms-accounts django-model-utils;");
             writer.append("git -C $EXTERNAL_STORAGE clone https://github.com/dbcaturra/miescuela-koala.git;");
-            writer.append("cd $EXTERNAL_STORAGE/miescuela-koala && python manage.py migrate;");
+                writer.append("cd $EXTERNAL_STORAGE/miescuela-koala && python manage.py makemigrations; python manage.py migrate;");
             writer.append("echo \"from accounts._models import Person; Person.objects.create_superuser('admin', 'admin@miescuela.co', '!!password')\" | python manage.py shell;");
             writer.append("git -C $EXTERNAL_STORAGE clone https://github.com/illuspas/Node-Media-Server;");
             writer.append("cd $EXTERNAL_STORAGE/Node-Media-Server && npm i;");
             writer.append("fi;");
             writer.flush();
             writer.close();
-            Toast.makeText(TermuxActivity.this, "install.sh created... installation of dependencies started!", LENGTH_SHORT).show();
-        } catch (Exception e) { System.out.println("Error writting file..");}
-        Uri uriScript = new Uri.Builder().scheme("co.miescuela.file").path(HOME_PATH + "install.sh").build();
-        Intent executeIntent = new Intent(ACTION_EXECUTE, uriScript);
-        executeIntent.setClassName("co.miescuela", TERMUX_SERVICE);
-        executeIntent.putExtra(EXTRA_EXECUTE_IN_BACKGROUND, true);
-        Context context = TermuxActivity.this.getApplicationContext();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            // https://developer.android.com/about/versions/oreo/background.html
-            context.startForegroundService(executeIntent);
-        } else {
-            context.startService(executeIntent);
-        }
+            Uri uriScript = new Uri.Builder().scheme("co.miescuela.file").path(HOME_PATH + "install.sh").build();
+            Intent executeIntent = new Intent(ACTION_EXECUTE, uriScript);
+            executeIntent.setClassName("co.miescuela", TERMUX_SERVICE);
+            executeIntent.putExtra(EXTRA_EXECUTE_IN_BACKGROUND, true);
+            Context context = TermuxActivity.this.getApplicationContext();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                // https://developer.android.com/about/versions/oreo/background.html
+                context.startForegroundService(executeIntent);
+            } else {
+                context.startService(executeIntent);
+            }
+        } catch (Exception e) { System.out.println("Error installing miescuela.. " + e.getMessage());}
     }
 
     void checkForFontAndColors() {
@@ -345,50 +343,12 @@ public final class TermuxActivity extends Activity implements ServiceConnection 
 
 
         findViewById(R.id.miescuela_button).setOnLongClickListener(v -> {
-            //ME: Install method
-            final ProgressDialog _progress = ProgressDialog.show(this, null, this.getString(R.string.bootstrap_installer_body), true, false);
-            new Thread() {
-                @Override
-                public void run() {
-                    //ME: Install method
-                    installMyEscuela();
-                }
-            }.start();
+            Toast.makeText(getApplicationContext(), R.string.bootstrap_installer_body, Toast.LENGTH_LONG).show();
+            Log.e("miescuela log:", "installing miescuela...");
+            installMyEscuela();
 
-            /*if (ensureStoragePermissionGranted()) {
-                TermuxInstaller.setupStorageSymlinks(TermuxActivity.this);
-                Toast.makeText(TermuxActivity.this, "Storage Permmissions granted... !", LENGTH_SHORT).show();
-            }
-            try {
-                File installfile = new File(HOME_PATH + "install.sh");
-                FileWriter writer = new FileWriter(installfile);
-                writer.append("#!/bin/sh");
-                writer.append("\n");
-                writer.append("if [ ! -d 'Node-Media-Server' ]\n then\n");
-                writer.append("python -m ensurepip --upgrade --default-pip;");
-                writer.append("LDFLAGS='-L/system/lib/' CFLAGS='-I/data/data/co.miescuela/files/usr/include/' pip install wheel pillow;");
-                writer.append("pip install django django-bootstrap-static django-koalalms-learning django-koalalms-accounts django-model-utils;");
-                writer.append("git -C $EXTERNAL_STORAGE clone https://github.com/dbcaturra/miescuela-koala.git;");
-                writer.append("cd $EXTERNAL_STORAGE/miescuela-koala && python manage.py migrate;");
-                writer.append("echo \"from accounts._models import Person; Person.objects.create_superuser('admin', 'admin@miescuela.co', '!!password')\" | python manage.py shell;");
-                writer.append("git -C $EXTERNAL_STORAGE clone https://github.com/illuspas/Node-Media-Server;");
-                writer.append("cd $EXTERNAL_STORAGE/Node-Media-Server && npm i;");
-                writer.append("fi;");
-                writer.flush();
-                writer.close();
-                Toast.makeText(TermuxActivity.this, "install.sh created... installation of dependencies started!", LENGTH_SHORT).show();
-            } catch (Exception e) { System.out.println("Error writting file..");}
-            Uri uriScript = new Uri.Builder().scheme("co.miescuela.file").path(HOME_PATH + "install.sh").build();
-            Intent executeIntent = new Intent(ACTION_EXECUTE, uriScript);
-            executeIntent.setClassName("co.miescuela", TERMUX_SERVICE);
-            executeIntent.putExtra(EXTRA_EXECUTE_IN_BACKGROUND, true);
-            Context context = getApplicationContext();
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                // https://developer.android.com/about/versions/oreo/background.html
-                context.startForegroundService(executeIntent);
-            } else {
-                context.startService(executeIntent);
-            }*/
+
+
             return true;
         });
 

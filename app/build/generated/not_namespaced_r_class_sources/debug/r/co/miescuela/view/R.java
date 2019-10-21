@@ -21,7 +21,7 @@ public final class R {
         private string() {}
 
         public static final int copy_text = 0x7f0a0009;
-        public static final int paste_text = 0x7f0a0017;
-        public static final int text_selection_more = 0x7f0a002b;
+        public static final int paste_text = 0x7f0a0018;
+        public static final int text_selection_more = 0x7f0a002c;
     }
 }

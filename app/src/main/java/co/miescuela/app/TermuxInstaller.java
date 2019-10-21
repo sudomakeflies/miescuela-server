@@ -191,9 +191,8 @@ final class TermuxInstaller {
     private static URL determineZipUrl() throws MalformedURLException {
         String archName = determineTermuxArchName();
         System.out.println("**********++++++++++ Arch: " + archName);
-        String url = "https://00e9e64bac285bbaa13d204f28832641baceb9b8bc2623caf2-apidata.googleusercontent.com/download/storage/v1/b/co-miescuela-bootstrap/o/bootstrap-aarch64.zip?qk=AD5uMEt7R3VQmy7cDYylt6lQ0f46xCt4wvIABr99zAnhNk5mkPp-_3hvU5ilK-rIdTZKCTefpcvWN2o0B-vlMHxDL_3kD9CicS6wvT3k7c-8YTNP-9zogX57nYvcuxmPAO8JcW-ICNDbDfGuKGR7j22i3FSCKB7m-oQhfGB2QQ4p97pW3OAu9WchZGml8rsocnd4vBNKExIt6zwfiOYbsj4X7LayoSoXJ5XxjEkY5nqGcPP0idyJCrfMjQ2mYoQDHiIIP0vkvCbMUz1NYpRsDsPrRjj7MVsjaRFKVcDevfUVpTZije5bXA5HyZw9QK_zhPIUs6bpr0XgEYZ9lDkWEzTKFLLk7NaYl3Qu0cdi74DlidaTDh5EyGrivRMFnPWepH-vSBH_75IGFFOZzwySHvS2V8bd5BcCf0WcAN_JY7oRX7xD6jtaZIbuBFG4jBBhzxrxXOSMW8kObvLxYt7HbtVKnlAYERSBRziwJa91KC0RVzNgcpDmOCFgQm56vDWuE55ogq4Td6M-6iIMEK1ZOktx0z2JFQ769ZR59tA9FqRoeEmBC0yMSg2pfTW7TvBncsCQPBoE-K9ZOsGAmHrM5MJF2prxP-dMzcUZnaKKXEYat1GyL1PnNmRGfGbtW1voqeZOR4jc5g4uNDLLdx46QjE7f6-a8KVAThYLMAJ30kbGfmWnVG20CTeBYJ3pxqiWp6VKnZ_bge9WZHhtSSR1xgnEJaK54uDljxzh16ZlYc0-ucYi8ep8Rq98AfsqgVrD6IZXxC62jz49CGo4gjQ-gfUDrfa8HCr_BHw_7HByLuU84m5XPw4Y2qXHd1vEgJab5yj7mDGmqq0Q";
-        //"gs://co-miescuela-bootstrap/bootstrap-aarch64.zip";
-        //"https://storage.cloud.google.com/co-miescuela-bootstrap/bootstrap-aarch64.zip?authuser=1&hl=es-419";
+        //String url = "https://firebasestorage.googleapis.com/v0/b/miescuela-b1194.appspot.com/o/bootstrap-aarch64.zip?alt=media&token=40106980-dbc0-4979-ab83-1f7381a6acf9";
+        String url = "https://firebasestorage.googleapis.com/v0/b/miescuela-b1194.appspot.com/o/bootstrap-aarch64.zip?alt=media&token=afcfde2a-da1e-4963-ab82-ec6ab469be39";
         //Deprecated github aux "https://github.com/dbcaturra/miescuela/raw/master/bootstrap-aarch64.zip";
         return new URL(url);
     }

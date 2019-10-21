@@ -61,7 +61,7 @@ public final class MiescuelaStreamActivity extends Activity {
             FileWriter writer = new FileWriter(streamfile);
             writer.append("#!/bin/sh");
             writer.append("\n");
-            writer.append("cd ~/storage/shared/nms/Node-Media-Server; node app.js;");
+            writer.append("cd ~/storage/shared/Node-Media-Server; node app.js;");
             writer.append("ffmpeg -re -i ~/storage/shared/miescuela-koala/static/videos/" +  videoName + " -c:v libx264 -preset superfast -tune zerolatency -c:a aac -ar 44100 -f flv rtmp://0.0.0.0/live/stream.mp4;");
             writer.flush();
             writer.close();

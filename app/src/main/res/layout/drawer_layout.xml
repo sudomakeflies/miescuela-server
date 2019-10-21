@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/viewpager"
         android:layout_alignParentTop="true"
+        android:alpha="0.84"
         android:background="#009688">
 
         <co.miescuela.view.TerminalView
@@ -56,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Keys" />
+                    android:text="@string/keys" />
 
                 <Button
                     android:id="@+id/new_session_button"

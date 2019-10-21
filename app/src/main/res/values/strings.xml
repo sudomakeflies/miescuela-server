@@ -13,9 +13,9 @@
     <string name="stream">ME Stream</string>
     <string name="toggle_keep_screen_on">Keep screen on</string>
 
-    <string name="bootstrap_installer_body">Instalando los componentes principales... puede tardar varios minutos!…</string>
+    <string name="bootstrap_installer_body">Instalando componentes requeridos... puede tardar varios minutos!…</string>
     <string name="bootstrap_error_title">Unable to install</string>
-    <string name="bootstrap_error_body">Termux was unable to install the bootstrap packages.\n\nCheck your network connection and try again.</string>
+    <string name="bootstrap_error_body">Miescuela was unable to install the bootstrap packages.\n\nCheck your network connection and try again.</string>
     <string name="bootstrap_error_abort">Abort</string>
     <string name="bootstrap_error_try_again">Try again</string>
     <string name="bootstrap_error_not_primary_user_message">Termux can only be installed on the primary user account.</string>
@@ -51,4 +51,5 @@
     <string name="file_received_edit_button">Edit</string>
     <string name="file_received_open_folder_button">Open folder</string>
     <string name="miescuela">mi escuela</string>
+    <string name="keys">Keys</string>
 </resources>

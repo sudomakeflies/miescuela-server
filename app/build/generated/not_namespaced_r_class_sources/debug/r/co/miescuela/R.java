@@ -230,38 +230,39 @@ public final class R {
     public static final int file_received_open_folder_button=0x7f0a000b;
     public static final int file_received_title=0x7f0a000c;
     public static final int help=0x7f0a000d;
-    public static final int kill_process=0x7f0a000e;
-    public static final int max_terminals_reached_message=0x7f0a000f;
-    public static final int max_terminals_reached_title=0x7f0a0010;
-    public static final int miescuela=0x7f0a0011;
-    public static final int new_session=0x7f0a0012;
-    public static final int new_session_failsafe=0x7f0a0013;
-    public static final int notification_action_exit=0x7f0a0014;
-    public static final int notification_action_wake_lock=0x7f0a0015;
-    public static final int notification_action_wake_unlock=0x7f0a0016;
-    public static final int paste_text=0x7f0a0017;
-    public static final int reset_terminal=0x7f0a0018;
-    public static final int reset_toast_notification=0x7f0a0019;
-    public static final int select_all_and_share=0x7f0a001a;
-    public static final int select_url=0x7f0a001b;
-    public static final int select_url_copied_to_clipboard=0x7f0a001c;
-    public static final int select_url_dialog_title=0x7f0a001d;
-    public static final int select_url_no_found=0x7f0a001e;
-    public static final int session_new_named_positive_button=0x7f0a001f;
-    public static final int session_new_named_title=0x7f0a0020;
-    public static final int session_rename_positive_button=0x7f0a0021;
-    public static final int session_rename_title=0x7f0a0022;
-    public static final int share_transcript_chooser_title=0x7f0a0023;
-    public static final int share_transcript_title=0x7f0a0024;
-    public static final int shared_user_label=0x7f0a0025;
-    public static final int status_bar_notification_info_overflow=0x7f0a0026;
-    public static final int stream=0x7f0a0027;
-    public static final int style_terminal=0x7f0a0028;
-    public static final int styling_install=0x7f0a0029;
-    public static final int styling_not_installed=0x7f0a002a;
-    public static final int text_selection_more=0x7f0a002b;
-    public static final int toggle_keep_screen_on=0x7f0a002c;
-    public static final int toggle_soft_keyboard=0x7f0a002d;
+    public static final int keys=0x7f0a000e;
+    public static final int kill_process=0x7f0a000f;
+    public static final int max_terminals_reached_message=0x7f0a0010;
+    public static final int max_terminals_reached_title=0x7f0a0011;
+    public static final int miescuela=0x7f0a0012;
+    public static final int new_session=0x7f0a0013;
+    public static final int new_session_failsafe=0x7f0a0014;
+    public static final int notification_action_exit=0x7f0a0015;
+    public static final int notification_action_wake_lock=0x7f0a0016;
+    public static final int notification_action_wake_unlock=0x7f0a0017;
+    public static final int paste_text=0x7f0a0018;
+    public static final int reset_terminal=0x7f0a0019;
+    public static final int reset_toast_notification=0x7f0a001a;
+    public static final int select_all_and_share=0x7f0a001b;
+    public static final int select_url=0x7f0a001c;
+    public static final int select_url_copied_to_clipboard=0x7f0a001d;
+    public static final int select_url_dialog_title=0x7f0a001e;
+    public static final int select_url_no_found=0x7f0a001f;
+    public static final int session_new_named_positive_button=0x7f0a0020;
+    public static final int session_new_named_title=0x7f0a0021;
+    public static final int session_rename_positive_button=0x7f0a0022;
+    public static final int session_rename_title=0x7f0a0023;
+    public static final int share_transcript_chooser_title=0x7f0a0024;
+    public static final int share_transcript_title=0x7f0a0025;
+    public static final int shared_user_label=0x7f0a0026;
+    public static final int status_bar_notification_info_overflow=0x7f0a0027;
+    public static final int stream=0x7f0a0028;
+    public static final int style_terminal=0x7f0a0029;
+    public static final int styling_install=0x7f0a002a;
+    public static final int styling_not_installed=0x7f0a002b;
+    public static final int text_selection_more=0x7f0a002c;
+    public static final int toggle_keep_screen_on=0x7f0a002d;
+    public static final int toggle_soft_keyboard=0x7f0a002e;
   }
   public static final class style {
     public static final int TermuxAlertDialogStyle=0x7f0b0000;
@@ -798,6 +799,7 @@ public final class R {
   }
   public static final class xml {
     public static final int backupscheme=0x7f0d0000;
-    public static final int shortcuts=0x7f0d0001;
+    public static final int network_security_config=0x7f0d0001;
+    public static final int shortcuts=0x7f0d0002;
   }
 }

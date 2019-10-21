@@ -64,6 +64,10 @@
         "source": "/home/black/miescuela-server/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/home/black/miescuela-server/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
         "merged": "/home/black/miescuela-server/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/black/miescuela-server/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },

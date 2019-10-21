@@ -5,7 +5,6 @@
       "sdkFolder": "/home/black/Android/Sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
-      "ideBuildTargetAbi": "x86",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "/home/black/miescuela-server/terminal-emulator/build/intermediates",
       "gradleModulePathName": ":terminal-emulator",
@@ -48,7 +47,10 @@
     "gradleBuildOutputFolder": "/home/black/miescuela-server/terminal-emulator/.cxx/cxx/debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "X86"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "buildTargetSet": []
   },

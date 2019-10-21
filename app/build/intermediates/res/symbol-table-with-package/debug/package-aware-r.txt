@@ -132,6 +132,7 @@ string file_received_edit_button
 string file_received_open_folder_button
 string file_received_title
 string help
+string keys
 string kill_process
 string max_terminals_reached_message
 string max_terminals_reached_title
@@ -179,4 +180,5 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 xml backupscheme
+xml network_security_config
 xml shortcuts
