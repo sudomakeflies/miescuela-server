@@ -3,6 +3,7 @@ package co.miescuela.app;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Build;
@@ -12,7 +13,11 @@ import android.util.Log;
 import android.widget.Toast;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 import static android.content.ContentValues.TAG;
 import static android.widget.Toast.LENGTH_SHORT;
@@ -50,19 +55,44 @@ public final class MiescuelaStreamActivity extends Activity {
         }
     }
 
+    private void copyFile(InputStream in, OutputStream out) throws IOException {
+        byte[] buffer = new byte[1024];
+        int read;
+        while((read = in.read(buffer)) != -1){
+            out.write(buffer, 0, read);
+        }
+    }
+
     private void streamVideo(Uri uri) {
         //String path = getRealPathFromURI(getApplicationContext(),uri);
         String[] arrOfStr = uri.toString().split("%2F");
         String videoName = arrOfStr[arrOfStr.length - 1];
         System.out.println("*** Video Name: " +  videoName);
         //Me: Run method
+
+        try {
+            InputStream in = null;
+            OutputStream out = null;
+            AssetManager assetManager = getAssets();
+            in = assetManager.open("app.js");
+            File outFile = new File("/data/data/co.miescuela/files/home/app.js");
+            out = new FileOutputStream(outFile);
+            copyFile(in, out);
+            in.close();
+            in = null;
+            out.flush();
+            out.close();
+            out = null;
+        }catch (Exception e) { System.out.println("Error reading asset app.js file.."); e.printStackTrace();}
+
         try {
             File streamfile = new File(HOME_PATH + "stream.sh");
             FileWriter writer = new FileWriter(streamfile);
             writer.append("#!/bin/sh");
             writer.append("\n");
-            writer.append("cd ~/storage/shared/Node-Media-Server; node app.js;");
-            writer.append("ffmpeg -re -i ~/storage/shared/miescuela-koala/static/videos/" +  videoName + " -c:v libx264 -preset superfast -tune zerolatency -c:a aac -ar 44100 -f flv rtmp://0.0.0.0/live/stream.mp4;");
+            writer.append("chmod +x /data/data/co.miescuela/files/usr/bin/npm; npm install node-media-server; node app.js;");
+            writer.append("ffmpeg -re -i" +
+                    " ~/storage/shared/miescuela-koala/static/videos/" +  videoName + " -c:v libx264 -preset superfast -tune zerolatency -c:a aac -ar 44100 -f flv rtmp://0.0.0.0:9935/live/stream.mp4;");
             writer.flush();
             writer.close();
             Toast.makeText(MiescuelaStreamActivity.this, "****** running streamming application...", LENGTH_SHORT).show();
